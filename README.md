@@ -1,7 +1,7 @@
 # 一个三级联动select菜单
 
 使用这样的元数据生成：
-
+```javascript
 var dealersArr = [
     {"province":"北京","city":"北京","shopname":"北京百旺沃瑞公司"},
     {"province":"甘肃","city":"兰州","shopname":"甘肃福康公司"},
@@ -13,7 +13,7 @@ var dealersArr = [
     {"province":"辽宁","city":"大连","shopname":"尊荣亿方中山路分公司"},
     .........
 ]
-
+```
 *数据转换可以使用这个工具 http://shancarter.github.io/mr-data-converter/
 
 例如：省市经销商excel文件另存为cvs，然后用上面这个工具可生成元数据
