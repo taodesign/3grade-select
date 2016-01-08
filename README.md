@@ -1,3 +1,5 @@
+# 三级联动select菜单
+
 数据生成步骤：
 
 1：省市经销商excel文件如下，另存为cvs
@@ -11,10 +13,13 @@ province  city  shopname
 上海  上海  上海世至有限公司
 广东  广州  广州市永安富放有限公司
 .........
+
+
 2：copy cvs数据到在线转换工具 http://shancarter.github.io/mr-data-converter/
 
 3：最终得到的数据格式 (包含在select-menu.js里)
 
+```javascript
 var dealersArr = [
     {"province":"北京","city":"北京","shopname":"北京百旺沃瑞公司"},
     {"province":"甘肃","city":"兰州","shopname":"甘肃福康公司"},
@@ -26,3 +31,4 @@ var dealersArr = [
     {"province":"辽宁","city":"大连","shopname":"尊荣亿方中山路分公司"},
     .........
 ]
+```
