@@ -4,6 +4,7 @@
 
 1：省市经销商excel文件如下，另存为cvs
 
+```excel
 province  city  shopname
 上海  上海  上海世至有限公司
 云南  红河  红河捷有限公司
@@ -13,7 +14,7 @@ province  city  shopname
 上海  上海  上海世至有限公司
 广东  广州  广州市永安富放有限公司
 .........
-
+```
 
 2：copy cvs数据到在线转换工具 http://shancarter.github.io/mr-data-converter/
 
