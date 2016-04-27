@@ -2,7 +2,7 @@
 
 数据生成步骤：
 
-1：省市经销商excel文件如下，另存为cvs
+1：省市经销商excel文件如下，另存为csv
 
 ```excel
 province  city  shopname
@@ -16,7 +16,7 @@ province  city  shopname
 .........
 ```
 
-2：copy cvs数据到在线转换工具 http://shancarter.github.io/mr-data-converter/
+2：copy csv数据到在线转换工具 http://shancarter.github.io/mr-data-converter/
 
 3：最终得到的数据格式 (包含在select-menu.js里)
 
